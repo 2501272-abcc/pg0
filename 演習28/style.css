@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    background-image: url(img/photo-1744571180269-5dd33b8f9fbd.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+#header{
+    margin-top: 3%;
+    text-align: center;
+}
+
+#header ul{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+#header li{
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 90px;
+}
+
+#header li:not(:last-child){
+    border-right:2px solid #ddd;
+}
+
+#header a{
+    text-decoration: none;
+    color: #333;
+}
+#header a.current{
+    color: #00B0F0;
+    border-bottom:2px solid #00B0F0;
+}
+#header a:hover{
+    color:#F7CB4D;
+    border-bottom:2px solid #F7CB4D;
+}
+
+.introduce{
+   display: block;
+}
+
+.intro{
+    display: block;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 4%;
+    text-align: left;
+}
+
+.introimage{
+    text-align: right;
+    margin-top: -19%;
+    margin-right: 5%;
+}
+
+.introimage img{
+    width: 55%;
+}
+
+.introzimoto{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.introcrane{
+    display: flex;
+}
+
+.crane{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.craneimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.introshrine{
+    display: flex;
+}
+
+.shrine{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.shrineimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.shrineimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introsamurai{
+    display: flex;
+}
+
+.samurai{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.samuraiimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.samuraiimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introseason{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.introChristmas{
+    display: flex;
+}
+
+.Christmas{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.Christmasimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.Christmasimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introbirthday{
+    display: flex;
+}
+
+.birthday{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.birthdayimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.birthdayimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introhighschool{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.introsportsfestival{
+    display: flex;
+}
+
+.sportsfestival{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.sportsfestivalimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.sportsfestivalimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introdepart{
+    display: flex;
+}
+
+.depart{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.departimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.departimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introclassmatch{
+    display: flex;
+}
+
+.classmatch{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.classmatchimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.classmatchimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introspain{
+    display: flex;
+}
+
+.spain{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.spainimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.spainimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introfamilia{
+    display: flex;
+}
+
+.familia{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.familiaimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.familiaimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introcampnou{
+    display: flex;
+}
+
+.campnou{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.campnouimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.campnouimage img{
+    height: 318px;
+    width: 512px;
+}
+
+.introhobby{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.introbarca{
+    display: flex;
+}
+
+.barca{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.barcaimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.barcaimage img{
+    height: 250px;
+    width: 450px;
+}
+
+.introsoccer{
+    display: flex;
+}
+
+.soccer{
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.soccerimage{
+    justify-content: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.soccerimage img{
+    height: 318px;
+    width: 512px;
+}
