@@ -105,9 +105,9 @@ body{
 }
 
 .shrineimage{
-    justify-content: right;
+    justify-content: left;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .shrineimage img{
@@ -186,9 +186,9 @@ body{
 }
 
 .birthdayimage{
-    justify-content: right;
+    justify-content: left;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .birthdayimage img{
@@ -243,9 +243,9 @@ body{
 }
 
 .departimage{
-    justify-content: right;
+    justify-content: left;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .departimage img{
@@ -315,9 +315,9 @@ body{
 }
 
 .familiaimage{
-    justify-content: right;
+    justify-content: left;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .familiaimage img{
@@ -396,9 +396,9 @@ body{
 }
 
 .soccerimage{
-    justify-content: right;
+    justify-content: left;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .soccerimage img{
